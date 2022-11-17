@@ -6,6 +6,7 @@ const respuesta = document.querySelector("#pResult");
 const form = document.querySelector("#formXD");
 
 form.addEventListener("submit", submitclick);
+// btn.addEventListener("click", submitclick);
 
 function submitclick(event) {
   console.log({ event });
